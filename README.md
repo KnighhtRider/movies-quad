@@ -1,8 +1,12 @@
-# React + Vite
+# Movies Quad
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+My Shows App is a React JS application that fetches and displays TV show information using the [TV Maze API](https://api.tvmaze.com/search/shows?q=all).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Features
+
+- View a list of TV shows with basic details.
+- Click on a show to view more details and a summary.
+- Book movie tickets for a show with a pre-filled form.
+- User details are stored in local storage.
